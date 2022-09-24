@@ -6,7 +6,7 @@ app.engine('ejs',ejs.renderFile);
 
 app.get('/', function(req, res){
   res.render('test.ejs',{
-    title:"タイトルです",
+    title:"タイトルです~expressを使用してます~",
     content:"コンテンツが入ります"
   });
 })
